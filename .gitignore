@@ -1,0 +1,5 @@
+*.json
+node_modules/
+webpack.config.js
+.DS_Store
+.idea/
