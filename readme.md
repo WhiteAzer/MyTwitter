@@ -12,5 +12,5 @@
 - [x] Add receiving posts from fb
 - [x] Add news feed 
 - [x] Add loader 
-- [ ] Add liked
-- [ ] Add the output of liked
+- [x] Add liked
+- [x] Add the output of liked

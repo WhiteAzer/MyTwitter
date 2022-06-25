@@ -14,7 +14,7 @@ const nav = new Navigation( ".navigation" )
 
 const news = new News( ".news", loader )
 const create = new Create( ".create" )
-const liked = new Liked( ".liked" )
+const liked = new Liked( ".liked", loader )
 
 nav.setButtons( [
     {

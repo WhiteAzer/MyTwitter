@@ -33,13 +33,23 @@
   top: 50%;
   left: 50%;
   transform: translate( -200px, -100px );
-  transition: opacity .5s;
-
-
+  transition: all .5s;
 }
-
 
 .fade {
   opacity: 0;
 }
 
+.unliked {
+  fill: $grey;
+}
+
+.liked {
+  fill: $orange;
+}
+
+.liked-is-empty {
+  color: $grey;
+  font-style: italic;
+  font-size: 30px;
+}

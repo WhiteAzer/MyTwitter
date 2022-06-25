@@ -1,7 +1,7 @@
 class TransformService {
     fbPostsTransform( fbData ) {
         return Object.keys( fbData ).map( key => {
-            fbData[key].key = key
+            fbData[key].id = key
             return fbData[key]
         } )
     }
